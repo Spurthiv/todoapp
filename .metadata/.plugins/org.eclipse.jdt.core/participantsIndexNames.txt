@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+C:\Users\hai123\Desktop\servlets\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3481449754.index
+\Servlet_todo_app\src\main\java
+C:\Users\hai123\Desktop\servlets\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\738331393.index
+\servlet_basic\src\main\java
+C:\Users\hai123\Desktop\servlets\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1285732479.index
+\task1\src\main\java

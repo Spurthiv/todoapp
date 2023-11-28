@@ -1,0 +1,16 @@
+127.0.0.1 - - [24/Nov/2023:12:50:41 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [24/Nov/2023:12:50:45 +0530] "GET /Servlet_todo_app/ HTTP/1.1" 200 879
+127.0.0.1 - - [24/Nov/2023:12:51:33 +0530] "POST /Servlet_todo_app/process HTTP/1.1" 404 258
+127.0.0.1 - - [24/Nov/2023:12:51:38 +0530] "GET /Servlet_todo_app/Signup.html HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2023:12:51:58 +0530] "POST /Servlet_todo_app/Signup.html HTTP/1.1" 200 1144
+127.0.0.1 - - [24/Nov/2023:12:52:26 +0530] "POST /Servlet_todo_app/signup HTTP/1.1" 500 76
+127.0.0.1 - - [24/Nov/2023:12:52:47 +0530] "POST /Servlet_todo_app/Signup.html HTTP/1.1" 200 1144
+127.0.0.1 - - [24/Nov/2023:12:54:52 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [24/Nov/2023:12:55:47 +0530] "POST /Servlet_todo_app/signup HTTP/1.1" 500 76
+127.0.0.1 - - [24/Nov/2023:12:58:42 +0530] "GET /Servlet_todo_app/Signup.html HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2023:12:59:05 +0530] "POST /Servlet_todo_app/Signup.html HTTP/1.1" 200 1144
+127.0.0.1 - - [24/Nov/2023:12:59:06 +0530] "POST /Servlet_todo_app/signup HTTP/1.1" 500 57
+127.0.0.1 - - [24/Nov/2023:12:59:06 +0530] "POST /Servlet_todo_app/signup HTTP/1.1" 500 57
+127.0.0.1 - - [24/Nov/2023:12:59:30 +0530] "GET /Servlet_todo_app/ HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2023:13:00:11 +0530] "POST /Servlet_todo_app/Signup.html HTTP/1.1" 200 1144
+127.0.0.1 - - [24/Nov/2023:13:00:58 +0530] "POST /Servlet_todo_app/signup HTTP/1.1" 500 57

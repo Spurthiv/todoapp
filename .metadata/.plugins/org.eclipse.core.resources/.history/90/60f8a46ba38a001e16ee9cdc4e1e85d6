@@ -1,0 +1,21 @@
+package service;
+
+import dao.Userdao;
+import dto.Userdto;
+
+public class Userservice {
+
+	
+		public boolean saveUser(Userdto dto)
+		{
+			if(dto.getAge()<18)
+				return false;
+			else {
+				Userdao dao=new Userdao();
+				dao.saveUser(dto);
+				return true;
+			}
+		}
+
+	}
+

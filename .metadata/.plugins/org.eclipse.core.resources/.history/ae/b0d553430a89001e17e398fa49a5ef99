@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+        form {
+            height: 450px;
+            width: 400px;
+            background-color: plum;
+            text-decoration-color: blueviolet;
+            text-align: center;
+        }
+        u{
+			text-align: center;
+		}
+    </style>
+</head>
+<body>
+<b><h1>TO DO SIGNUP</h1></b>
+<form>
+        <legend><h2>Signup</h2></legend>
+        <br><br>
+        Name:<input type="text" name="name" /> <br><br>
+        Email:<input type="email" name="email" /> <br><br>
+        Password:<input type="text" name="pwd" /> <br><br>
+Mobile:<input type="tel" pattern="[0-9](10)" name="mob" /> <br><br>
+        Gender:<input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female <br><br>
+
+        DOB: <input type="date" name="dob"> <br><br><br>
+        <button type="submit" formaction="">Signup</button>
+        <button type="reset">Cancel</button> <br><br>
+         <button type="submit">Login if already have account</button>
+
+    </form>
+    
+</body>
+</html>

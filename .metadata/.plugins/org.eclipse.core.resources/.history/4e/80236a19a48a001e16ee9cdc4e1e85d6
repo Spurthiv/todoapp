@@ -1,0 +1,21 @@
+package dao;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import dto.Userdto;
+public class Userdao {
+
+	
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("dev");
+	    EntityManager manager=factory.createEntityManager();
+	    
+	    public void saveUser(Userdto dto)
+	    {
+	    	manager.getTransaction().begin();
+	    	manager.persist(dto);
+	    	manager.getTransaction().commit();
+	    }
+	}
+

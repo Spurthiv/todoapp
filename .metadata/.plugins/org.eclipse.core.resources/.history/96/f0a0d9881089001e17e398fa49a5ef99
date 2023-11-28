@@ -1,0 +1,28 @@
+package Controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/signup")
+public class signup extends HttpServlet {
+@Override
+protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	String name=req.getParameter("name");
+	String email=req.getParameter("email");
+	String password=req.getParameter("pwd");
+	int mobile=Integer.parseInt(req.getParameter("mobile"));
+	String gender=req.getParameter("gender");
+	int dob=Integer.parseInt(req.getParameter("dob"));
+	if(email != null && password != null) {
+		resp.getWriter().print("You can proceed further!");
+	}
+	else {
+		resp.getWriter().print("Enter the required details");
+	}
+}
+}

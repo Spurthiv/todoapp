@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+    <style>
+        form {
+            height: 250px;
+            width: 350px;
+            background-color: wheat;
+            text-decoration-color: blueviolet;
+            text-align: center; 
+        }
+        u{
+			text-align: center;
+		}
+    </style>
+<body>
+
+<form action="" method="get">
+        <legend><h2>To Do Login</h2></legend>
+        <br><br>
+        Email:<input type="email" name="email" /> <br><br>
+        Password:<input type="text" name="pwd" /> <br><br><br /><br>
+        <button type="submit" formaction="process">Login</button>
+        <button type="reset" formaction="process">Cancel</button> <br><br><br>
+        <a href="./Signup.html">Click here to Signup</a>
+    </form>
+    
+</body>
+</html>
